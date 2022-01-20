@@ -127,7 +127,7 @@ pextrw r14, xmm6, 2 ;skladowa blue piksela wynikowego do rejestru r14
 mov r11, r15 ;poczatek bitmapy do rejestru r11
 add r11, rcx ;poczatek bitmapy + licznik -> srodek siatki
 
-;modyfikacja wartosci skaldowych piksela
+;modyfikacja wartosci skladowych piksela
 mov byte ptr[r11], r9b
 add r11, 1
 mov byte ptr[r11], r13b
