@@ -205,8 +205,8 @@ namespace GaussianBlur {
 			   this->Controls->Add(this->comboBox1);
 			   this->Controls->Add(this->ASMRadioBox);
 			   this->Controls->Add(this->CPPRadioBox);
-			   this->Name = L"MyForm";
-			   this->Text = L"MyForm";
+			   this->Name = L"Gaussian blur";
+			   this->Text = L"Gaussian blur";
 			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			   (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			   this->ResumeLayout(false);
